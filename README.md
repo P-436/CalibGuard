@@ -7,6 +7,10 @@
 面向轻度开发者、CS 学生与 AI 初学者：把可疑文件（脚本 / 代码 / 文本 / 压缩包）丢进去，
 得到一个四档结论：**放行 / 可疑 / 拦截 / 转人工**。
 
+> **DSH 插件（官方）**：[`dsh-calibguard`](https://github.com/maomitgd2006/DSH_CG) —— 把本引擎接进
+> DeepSeek Harness（DSH），既能作为 **agent 工具**调用（`calibguard_audit` / `calibguard_status`），
+> 也有**侧边栏面板**可拖拽审计；面板与 AI 共用同一套阈值/送审设置。
+
 ---
 
 ## 核心思路
@@ -79,6 +83,9 @@ CG/
 ```
 
 > 两个子项目各自带一份 `calibguard/` 引擎副本，是为了让它们能独立运行/打包。
+>
+> DSH 插件已独立成仓库：[DSH_CG](https://github.com/maomitgd2006/DSH_CG)（不在本仓库内；
+> 运行时通过插件配置 `engineRoot` 指向本仓库的 `CG_GUI/`）。
 
 ---
 
