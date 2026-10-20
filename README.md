@@ -7,7 +7,7 @@
 面向轻度开发者、CS 学生与 AI 初学者：把可疑文件（脚本 / 代码 / 文本 / 压缩包）丢进去，
 得到一个四档结论：**放行 / 可疑 / 拦截 / 转人工**。
 
-> **DSH 插件（官方）**：[`dsh-calibguard`](https://github.com/maomitgd2006/DSH_CG) —— 把本引擎接进
+> **CG 官方的 DSH 插件**：[`dsh-calibguard`](https://github.com/maomitgd2006/DSH_CG) —— 把本引擎接进
 > DeepSeek Harness（DSH），既能作为 **agent 工具**调用（`calibguard_audit` / `calibguard_status`），
 > 也有**侧边栏面板**可拖拽审计；面板与 AI 共用同一套阈值/送审设置。
 

@@ -8,7 +8,7 @@ Built for casual developers, CS students, and AI beginners: drop in a suspicious
 (script / code / text / archive) and get one of four verdicts:
 **allow / suspicious / block / manual review**.
 
-> **Official DSH plugin**: [`dsh-calibguard`](https://github.com/maomitgd2006/DSH_CG) plugs this engine
+> **CG's official DSH plugin**: [`dsh-calibguard`](https://github.com/maomitgd2006/DSH_CG) plugs this engine
 > into DeepSeek Harness (DSH) — usable as **agent tools** (`calibguard_audit` / `calibguard_status`)
 > and as a **sidebar panel** with drag-and-drop auditing; the panel and the AI share one set of settings.
 
