@@ -44,8 +44,8 @@ CG_GUI/dist/
 *.exe
 *.msi
 
-# ---- 文档（本项目开源版本不含内部设计/参赛文档）----
-参赛提交材料/
+# ---- 文档（本项目开源版本不含内部设计与提交材料）----
+*提交材料*/
 *.docx
 *.doc
 *.pdf
@@ -55,12 +55,16 @@ CG_GUI/dist/
 !README.md
 !README.en.md
 !CG_Bench/模型性能对比分析报告.md
+!CG_Bench/DATA.md
 
 # ---- Hello / 临时脚本 ----
 _scan_secrets.py
 _scan_out.txt
 _tools/
 *.log
+
+# ---- 嵌套仓库（独立维护，见 README 链接）----
+DSH_CG/
 
 # ---- 编辑器 / 系统 ----
 .vscode/

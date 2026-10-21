@@ -17,7 +17,7 @@
 #     PYTHON_BIN              指定解释器，如 python3.12
 #     CG_REUSE_SYSTEM_TORCH=1 云端模式：不装 torch，改为 --system-site-packages 建 venv，
 #                             复用系统环境（如 conda）里已装的 CUDA torch。适用于
-#                             AutoDL 等「无卡模式」下装环境（此时 nvidia-smi 不可用，
+#                             部分云 GPU 平台的「无卡模式」下装环境（此时 nvidia-smi 不可用，
 #                             正常流程会误装 CPU torch；复用系统 torch 可避免）。
 #
 # 注意：本脚本必须保存为 LF 换行，否则 bash 会因 \r 报「bad interpreter」。
