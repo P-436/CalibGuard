@@ -84,8 +84,9 @@ CG/
 
 > 两个子项目各自带一份 `calibguard/` 引擎副本，是为了让它们能独立运行/打包。
 >
-> DSH 插件已独立成仓库：[DSH_CG](https://github.com/maomitgd2006/dsh-CalibGuard)（不在本仓库内；
-> 运行时通过插件配置 `engineRoot` 指向本仓库的 `CG_GUI/`）。
+> DSH 插件已独立成仓库：[dsh-CalibGuard](https://github.com/maomitgd2006/dsh-CalibGuard)（不在本仓库内）。
+> 插件仓库自带一份从本仓库 `CG_GUI/` **复制**的引擎核心（`engine/`，只复制、不改逻辑），
+> 模型权重由插件的 Release 资产分发；也可以把插件配置 `engineRoot` 指向本仓库的 `CG_GUI/` 复用已有引擎。
 
 ---
 
