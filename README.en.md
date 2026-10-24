@@ -4,11 +4,14 @@ English | [中文](README.md)
 
 **A low-cost file security auditing system** — a small local model gates the traffic, and a cloud LLM reviews only what needs it.
 
+> **Canonical repository**: <https://github.com/P-436/CalibGuard> (CalibGuard main repo; the old
+> `P-436/CG` URL redirects here). Please cite **P-436/CalibGuard** as the canonical address.
+
 Built for casual developers, CS students, and AI beginners: drop in a suspicious file
 (script / code / text / archive) and get one of four verdicts:
 **allow / suspicious / block / manual review**.
 
-> **CG's official DSH plugin**: [`dsh-calibguard`](https://github.com/maomitgd2006/dsh-CalibGuard) plugs this engine
+> **CalibGuard's official DSH plugin**: [`dsh-calibguard`](https://github.com/maomitgd2006/dsh-CalibGuard) plugs this engine
 > into DeepSeek Harness (DSH) — usable as **agent tools** (`calibguard_audit` / `calibguard_status`)
 > and as a **sidebar panel** with drag-and-drop auditing; the panel and the AI share one set of settings.
 
@@ -87,8 +90,10 @@ CG/
 
 > Each subproject ships its own copy of the `calibguard/` engine so it can run and be packaged independently.
 >
-> The DSH plugin lives in its own repository: [DSH_CG](https://github.com/maomitgd2006/dsh-CalibGuard)
-> (not part of this repo; at runtime its `engineRoot` option points at this repo's `CG_GUI/`).
+> The DSH plugin lives in its own repository: [dsh-CalibGuard](https://github.com/maomitgd2006/dsh-CalibGuard)
+> (not part of this repo). It ships a **copy** of this repository's engine core under `engine/`
+> (copied as-is, logic not modified); model weights are distributed by the plugin's release asset.
+> The plugin's `engineRoot` option can also point at this repo's `CG_GUI/` to reuse an existing engine.
 
 ---
 
